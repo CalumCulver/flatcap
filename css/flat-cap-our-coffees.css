@@ -55,6 +55,10 @@ body {
     border: 1px dotted red;
 }
 
+.nav li:last-child {
+    border-bottom: 0.5px solid rgba(20, 20, 20, 0.4);
+}
+
 .nav li a {
     color: black;
 }
