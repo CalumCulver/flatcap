@@ -14,7 +14,7 @@ body {
     background: url("../img/cart.jpg") no-repeat center center;
     position: relative;
     background-size: cover;
-    display: block;
+    display: inline-block;
     margin: 0px auto;
 }
 
@@ -24,8 +24,8 @@ body {
     background-color: rgba(193, 193, 193, 0.7);
     height: 95%;
     text-align: center;
-    position: absolute;
-    display: block;
+    position: relative;
+    display: inline-block;
     top: 0px;
     width: 15%;
     min-width: 250px;
@@ -80,17 +80,14 @@ body {
     color: #833ab4;
 }
 
-/* hover not working...
-
-.fa .fa-twitter a:hover {
+.fa-twitter:hover {
     color: white;
 }
 
-.fa-twitter a:hover {
+.fa-instagram:hover {
     color: white;
 }
 
-/*
 
 /* map */
 
@@ -99,8 +96,8 @@ body {
     height: 70%;
     width: 50%;
     min-height: 200px;
-    position: absolute;
-    display: block;
+    position: relative;
+    display: inline-block;
     top: 0px;
     margin: 10% 10% 10% 37%;
     border: 7px solid rgba(193, 193, 193, 0.7);
@@ -112,8 +109,8 @@ h1 {
     background-color: rgba(193, 193, 193, 0.7);
     font-family: 'Cinzel', Georgia, sans-serif;
     font-size: 40px;
-    position: absolute;
-    display: block;
+    position: relative;
+    display: inline-block;
     top: -60px;
     z-index: 2;
 }

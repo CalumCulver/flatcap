@@ -14,7 +14,7 @@ body {
     background: url("../img/cart.jpg") no-repeat center center;
     position: relative;
     background-size: cover;
-    display: block;
+    display: inline-block;
     margin: 0px auto;
 }
 
@@ -80,13 +80,11 @@ body {
     color: #833ab4;
 }
 
-/* hover not working...
-
-.fa .fa-twitter a:hover {
+.fa-twitter:hover {
     color: white;
 }
 
-.fa-twitter a:hover {
+.fa-instagram:hover {
     color: white;
 }
 
