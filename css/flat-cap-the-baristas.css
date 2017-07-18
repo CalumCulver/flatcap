@@ -1,10 +1,9 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 
-/* REMEMBER TO ASK ABOUT ODD POSITIONING... Have had to use overflow: hidden for now */
+/* REMEMBER TO ASK ABOUT ODD POSITIONING */
 
 a {
     text-decoration: none;
@@ -91,14 +90,9 @@ body {
     color: white;
 }
 
-/* CHARLIE */
+/* BARISTA */
 
-#charlie img {
-    max-width: 100%;
-    height: 150px;
-}
-
-#charlie {
+.barista {
     background-color: white;
     border: 7px solid white;
     border-radius: 5px;
@@ -108,6 +102,7 @@ body {
     left: 35%;
     padding: 1%;
     max-width: 15%;
+    min-width: 150px;
     bottom: 15%;
     text-align: center;
     word-wrap: break-word;
@@ -115,6 +110,17 @@ body {
     font-size: 16px;
     letter-spacing: 3px;
     font-family: 'Cinzel', Georgia, sans-serif;
+}
+
+/* CHARLIE */
+
+#charlie img {
+    max-width: 100%;
+    height: 150px;
+}
+
+#charlie {
+    left: 35%;
 }
 
 #charlie:after {
@@ -137,22 +143,7 @@ body {
 }
 
 #harry {
-    background-color: white;
-    border: 7px solid white;
-    border-radius: 5px;
-    position: absolute;
-    display: inline-block;
-    top: 20%;
     left: 55%;
-    padding: 1%;
-    max-width: 15%;
-    bottom: 15%;
-    text-align: center;
-    word-wrap: break-word;
-    font-weight: bold;
-    font-size: 16px;
-    letter-spacing: 3px;
-    font-family: 'Cinzel', Georgia, sans-serif;
 }
 
 #harry:after {
@@ -175,22 +166,7 @@ body {
 }
 
 #calum {
-    background-color: white;
-    border: 7px solid white;
-    border-radius: 5px;
-    position: absolute;
-    display: inline-block;
-    top: 20%;
     left: 75%;
-    padding: 1%;
-    max-width: 15%;
-    bottom: 15%;
-    text-align: center;
-    word-wrap: break-word;
-    font-weight: bold;
-    font-size: 16px;
-    letter-spacing: 3px;
-    font-family: 'Cinzel', Georgia, sans-serif;
 }
 
 #calum:after {
