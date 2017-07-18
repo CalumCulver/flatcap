@@ -88,37 +88,20 @@ body {
     color: white;
 }
 
-/*
-
-/* the baristas info - HAVING TROUBLES APPLYING THIS TO THE CHILD CLASSES */
-/*
-.baristas {
-        background-color: rgba(193, 193, 193, 0.7);
-        border: 1px dotted red;
-        position: absolute;
-        top: 0px;
-        max-width: 40%;
-        margin: 10% 10% 5% 40%;
-        word-wrap: break-word;
-        font-family: 'Cinzel', Georgia, sans-serif;
-}
-*/
-
-/* BARISTAS - WOULD HAVE LIKED TO HAVE STATED MOST OF THIS IN THE PARENT CLASSES */
-
 /* CHARLIE */
 
-.charlie img {
+#charlie img {
     max-width: 100%;
     height: 150px;
 }
 
-.charlie {
+#charlie {
     background-color: white;
     border: 7px solid white;
     border-radius: 5px;
-    position: relative;
-    top: 12%;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
     left: 35%;
     padding: 1%;
     max-width: 15%;
@@ -131,7 +114,7 @@ body {
     font-family: 'Cinzel', Georgia, sans-serif;
 }
 
-.charlie:after {
+#charlie:after {
     content: '';
     position: relative;
     border-radius: 5px;
@@ -145,17 +128,18 @@ body {
 
 /* HARRY */
 
-.harry img {
+#harry img {
     max-width: 100%;
     height: 150px;
 }
 
-.harry {
+#harry {
     background-color: white;
     border: 7px solid white;
     border-radius: 5px;
-    position: relative;
-    top: 12%;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
     left: 55%;
     padding: 1%;
     max-width: 15%;
@@ -168,7 +152,7 @@ body {
     font-family: 'Cinzel', Georgia, sans-serif;
 }
 
-.harry:after {
+#harry:after {
     content: '';
     position: relative;
     border-radius: 5px;
@@ -182,17 +166,18 @@ body {
 
 /* CALUM */
 
-.calum img {
+#calum img {
     max-width: 100%;
     height: 150px;;
 }
 
-.calum {
+#calum {
     background-color: white;
     border: 7px solid white;
     border-radius: 5px;
-    position: relative;
-    top: 12%;
+    position: absolute;
+    display: inline-block;
+    top: 20%;
     left: 75%;
     padding: 1%;
     max-width: 15%;
@@ -205,7 +190,7 @@ body {
     font-family: 'Cinzel', Georgia, sans-serif;
 }
 
-.calum:after {
+#calum:after {
     content: '';
     position: relative;
     border-radius: 5px;
