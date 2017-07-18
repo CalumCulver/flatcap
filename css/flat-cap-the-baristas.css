@@ -1,7 +1,10 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
+
+/* REMEMBER TO ASK ABOUT ODD POSITIONING... Have had to use overflow: hidden for now */
 
 a {
     text-decoration: none;
