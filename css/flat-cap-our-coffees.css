@@ -142,10 +142,12 @@ body {
 .text {
   background-color: rgba(300, 300, 300, 0.7);
   color: black;
-  font-size: 16px;
+  font-family: 'Cinzel', Georgia, sans-serif;
+  font-size: 14px;
   padding: 16px 32px;
-  width: 130px;
+  width: 145px;
   word-wrap: break-word;
+  text-align: center;
 }
 
 #ninhodaguia {
