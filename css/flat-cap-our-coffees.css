@@ -97,7 +97,7 @@ body {
 .container {
     position: absolute;
     display: inline-block;
-    width: 220px;
+    width: 190px;
     padding: 1%;
     background-color: rgba(193, 193, 193, 0.7);
     border: 3px solid rgba(20, 20, 20, 0.8);
@@ -151,21 +151,26 @@ body {
 }
 
 #ninhodaguia {
-  top: 8.5%;
-  left: 38%;
+  top: 23%;
+  left: 32%;
 }
 
 #elmirador {
-  top: 8.5%;
-  left: 68%;
+  top: 23%;
+  left: 54%;
 }
 
 #elrecuerdodelalma {
-  top: 52%;
-  left: 38%;
+  bottom: 4%;
+  left: 32%;
 }
 
 #carrasco {
-  top: 52%;
-  left: 68%;
+  bottom: 4%;
+  left: 54%;
+}
+
+#selectodecaf {
+  top: 23%;
+  left: 76%;
 }
