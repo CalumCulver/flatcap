@@ -29,7 +29,7 @@ body {
     top: 0px;
     width: 15%;
     min-width: 250px;
-    border: 3px solid rgba(20, 20, 20, 0.8);
+    border: 5px solid rgba(20, 20, 20, 0.8);
     margin: 0% 90% 0% 3%;
 }
 
@@ -98,6 +98,22 @@ body {
     position: absolute;
     display: inline-block;
     width: 220px;
+    padding: 1%;
+    background-color: rgba(193, 193, 193, 0.7);
+    border: 3px solid rgba(20, 20, 20, 0.8);
+    border-radius: 5px;
+}
+
+.container:before {
+  content: " ";
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
 }
 
 .image {
@@ -133,21 +149,21 @@ body {
 }
 
 #ninhodaguia {
-  top: 10%;
+  top: 8.5%;
   left: 38%;
 }
 
 #elmirador {
-  top: 10%;
+  top: 8.5%;
   left: 68%;
 }
 
 #elrecuerdodelalma {
-  top: 50%;
+  top: 52%;
   left: 38%;
 }
 
 #carrasco {
-  top: 50%;
+  top: 52%;
   left: 68%;
 }

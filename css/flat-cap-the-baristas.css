@@ -31,7 +31,7 @@ body {
     top: 0px;
     width: 15%;
     min-width: 250px;
-    border: 3px solid rgba(20, 20, 20, 0.8);
+    border: 5px solid rgba(20, 20, 20, 0.8);
     margin: 0% 90% 0% 3%;
 }
 
@@ -93,14 +93,14 @@ body {
 /* BARISTA */
 
 .barista {
-    background-color: white;
-    border: 7px solid white;
+    background-color: rgba(193, 193, 193, 0.7);
+    border: 3px solid rgba(20, 20, 20, 0.8);
     border-radius: 5px;
     position: absolute;
     display: inline-block;
     top: 20%;
     left: 35%;
-    padding: 1%;
+    padding: 1.25%;
     max-width: 15%;
     min-width: 150px;
     bottom: 15%;
@@ -110,6 +110,18 @@ body {
     font-size: 16px;
     letter-spacing: 3px;
     font-family: 'Cinzel', Georgia, sans-serif;
+}
+
+.barista:before {
+  content: " ";
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
 }
 
 /* CHARLIE */
@@ -123,18 +135,6 @@ body {
     left: 35%;
 }
 
-#charlie:after {
-    content: '';
-    position: relative;
-    border-radius: 5px;
-    top: -12px;
-    left: -12px;
-    right: -12px;
-    bottom: -12px;
-    background: rgba(20, 20, 20, 0.8);
-    z-index: -1;
-}
-
 /* HARRY */
 
 #harry img {
@@ -144,18 +144,6 @@ body {
 
 #harry {
     left: 55%;
-}
-
-#harry:after {
-    content: '';
-    position: relative;
-    border-radius: 5px;
-    top: -12px;
-    left: -12px;
-    right: -12px;
-    bottom: -12px;
-    background: rgba(20, 20, 20, 0.8);
-    z-index: -1;
 }
 
 /* CALUM */
@@ -168,16 +156,3 @@ body {
 #calum {
     left: 75%;
 }
-
-#calum:after {
-    content: '';
-    position: relative;
-    border-radius: 5px;
-    top: -12px;
-    left: -12px;
-    right: -12px;
-    bottom: -12px;
-    background: rgba(20, 20, 20, 0.8);
-    z-index: -1;
-}
-
