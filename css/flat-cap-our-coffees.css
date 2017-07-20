@@ -29,7 +29,7 @@ body {
     top: 0px;
     width: 15%;
     min-width: 250px;
-    border: 3px solid rgba(20, 20, 20, 0.8);
+    border: 5px solid rgba(20, 20, 20, 0.8);
     margin: 0% 90% 0% 3%;
 }
 
@@ -92,12 +92,51 @@ body {
     color: white;
 }
 
-/* our coffees */
+/* about the coffees */
+
+.about-coffees {
+    position: absolute;
+    display: inline-block;
+    width: 190px;
+    padding: 1%;
+    background-color: rgba(193, 193, 193, 0.7);
+    border: 3px solid rgba(20, 20, 20, 0.8);
+    border-radius: 5px;
+    top: 3.5%;
+    left: 32%;
+    right: 24%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Cinzel', Georgia, sans-serif;
+    margin: 2.5% 0%;
+    font-weight: bold;
+}
+
+/* the coffees */
 
 .container {
     position: absolute;
     display: inline-block;
-    width: 220px;
+    width: 190px;
+    padding: 1%;
+    background-color: rgba(193, 193, 193, 0.7);
+    border: 3px solid rgba(20, 20, 20, 0.8);
+    border-radius: 5px;
+}
+
+.container:before {
+  content: " ";
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
 }
 
 .image {
@@ -124,30 +163,37 @@ body {
 }
 
 .text {
-  background-color: rgba(300, 300, 300, 0.7);
+  background-color: rgba(300, 300, 300, 0.9);
   color: black;
-  font-size: 16px;
+  font-family: 'Garamond', Georgia, sans-serif;
+  font-size: 15px;
   padding: 16px 32px;
-  width: 130px;
+  width: 145px;
   word-wrap: break-word;
+  text-align: center;
 }
 
 #ninhodaguia {
-  top: 10%;
-  left: 38%;
+  top: 23%;
+  left: 32%;
 }
 
 #elmirador {
-  top: 10%;
-  left: 68%;
+  top: 23%;
+  left: 54%;
 }
 
 #elrecuerdodelalma {
-  top: 50%;
-  left: 38%;
+  bottom: 4%;
+  left: 32%;
 }
 
 #carrasco {
-  top: 50%;
-  left: 68%;
+  bottom: 4%;
+  left: 54%;
+}
+
+#selectodecaf {
+  top: 23%;
+  left: 76%;
 }
