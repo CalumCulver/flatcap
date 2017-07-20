@@ -90,6 +90,29 @@ body {
     color: white;
 }
 
+/* ABOUT COFFEES */
+
+.about-baristas {
+    position: absolute;
+    display: inline-block;
+    width: 190px;
+    padding: 1%;
+    background-color: rgba(193, 193, 193, 0.7);
+    border: 3px solid rgba(20, 20, 20, 0.8);
+    border-radius: 5px;
+    top: 3.5%;
+    left: 32%;
+    right: 24%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Cinzel', Georgia, sans-serif;
+    margin: 2.5% 0%;
+    font-weight: bold;
+}
+
 /* BARISTA */
 
 .barista {
@@ -98,9 +121,9 @@ body {
     border-radius: 5px;
     position: absolute;
     display: inline-block;
-    top: 20%;
+    top: 25%;
     left: 35%;
-    padding: 1.25%;
+    padding: 1%;
     max-width: 15%;
     min-width: 150px;
     bottom: 15%;
@@ -132,7 +155,7 @@ body {
 }
 
 #charlie {
-    left: 35%;
+    left: 32%;
 }
 
 /* HARRY */
@@ -143,7 +166,7 @@ body {
 }
 
 #harry {
-    left: 55%;
+    left: 52%;
 }
 
 /* CALUM */
@@ -154,5 +177,5 @@ body {
 }
 
 #calum {
-    left: 75%;
+    left: 72%;
 }

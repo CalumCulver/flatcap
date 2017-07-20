@@ -92,7 +92,30 @@ body {
     color: white;
 }
 
-/* our coffees */
+/* about the coffees */
+
+.about-coffees {
+    position: absolute;
+    display: inline-block;
+    width: 190px;
+    padding: 1%;
+    background-color: rgba(193, 193, 193, 0.7);
+    border: 3px solid rgba(20, 20, 20, 0.8);
+    border-radius: 5px;
+    top: 3.5%;
+    left: 32%;
+    right: 24%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Cinzel', Georgia, sans-serif;
+    margin: 2.5% 0%;
+    font-weight: bold;
+}
+
+/* the coffees */
 
 .container {
     position: absolute;
@@ -140,10 +163,10 @@ body {
 }
 
 .text {
-  background-color: rgba(300, 300, 300, 1);
+  background-color: rgba(300, 300, 300, 0.9);
   color: black;
   font-family: 'Garamond', Georgia, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   padding: 16px 32px;
   width: 145px;
   word-wrap: break-word;
